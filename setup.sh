@@ -109,8 +109,10 @@ cd ../..
 # vendor
 cd vendor/lineage
 git fetch https://github.com/PixelLineage/vendor_lineage refs/heads/q2
+git fetch https://github.com/Skizoniee/vendor_lineage.git q2
 git cherry-pick 8bf7d2c04fd75a053a4d717f1602a2cf7c59dc80
 git cherry-pick 8bf7d2c04fd75a053a4d717f1602a2cf7c59dc80..58a0b3791abc3b7f5b170228409b4cef15fbc151
+git cherry-pick 93ad7db0077a66817df9f99a2dc7714c1fef00ee
 cd ../..
 
 # settings
