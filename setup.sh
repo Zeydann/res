@@ -210,6 +210,9 @@ cd ../../..
 # Bluetooth
 cd packages/modules/Bluetooth && curl https://github.com/halcyonproject/packages_modules_Bluetooth/commit/9a7277fbbf3c9cf4eb8a30d9358c1ada660acf58.patch | git am && cd ../../..
 
+# Revanced
+git clone https://github.com/PixelLineage/vendor_revanced vendor/revanced
+
 # GMS PARTY
 rm -rf vendor/pixel
 git clone --depth 1 -b sixteen-qpr2 https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_clocks.git vendor/pixel/clocks
