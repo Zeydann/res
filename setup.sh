@@ -207,6 +207,9 @@ git cherry-pick 7d22a8df8d25c1c0e35c867fb2454eb4726825af
 git cherry-pick 7d22a8df8d25c1c0e35c867fb2454eb4726825af..1f05e32bd3d40fb8fa15baec6a7e614daced1d11
 cd ../../..
 
+# Bluetooth
+cd packages/modules/Bluetooth && curl https://github.com/halcyonproject/packages_modules_Bluetooth/commit/9a7277fbbf3c9cf4eb8a30d9358c1ada660acf58.patch | git am && cd ../../..
+
 # GMS PARTY
 rm -rf vendor/pixel
 git clone --depth 1 -b sixteen-qpr2 https://gitlab.com/PixelOS-AOSP/proprietary_vendor_pixel_clocks.git vendor/pixel/clocks
