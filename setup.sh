@@ -186,7 +186,7 @@ cd ../..
 
 # hw ximi
 rm -rf hardware/xiaomi
-git clone https://github.com/LineageOS/android_hardware_xiaomi hardware/xiaomi -b lineage-23.2
+git clone https://github.com/mt6899-rodin/android_hardware_xiaomi.git -b lineage-23.2 hardware/xiaomi
 
 # # zlib-ng
 # rm -rf external/zlib
